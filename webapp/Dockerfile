@@ -6,9 +6,9 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
 # Default GCP environment variables (can be overridden in Cloud Run)
-ENV GCP_PROJECT=data-analysis-webapp \
+ENV GCP_PROJECT=project-64f58cb2-a1cc-4618-9a0 \
     BIGQUERY_DATASET=analysis_dataset \
-    BUCKET_NAME=data-analysis-upload-1000 \
+    BUCKET_NAME=project-64f58cb2-data-analysis \
     PUBSUB_TOPIC_FOR_SQL_IMPORT=sql-import-topic \
     FLASK_SECRET_KEY=change-this-in-production
 

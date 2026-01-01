@@ -2,9 +2,9 @@ import os
 from google.cloud import bigquery, storage
 from flask import Request
 
-PROJECT_ID = os.environ.get('GCP_PROJECT', 'data-analysis-webapp')
+PROJECT_ID = os.environ.get('GCP_PROJECT', 'project-64f58cb2-a1cc-4618-9a0')
 BIGQUERY_DATASET = os.environ.get('BIGQUERY_DATASET', 'analysis_dataset')
-BUCKET_NAME = os.environ.get('BUCKET_NAME', 'data-analysis-upload-1000')
+BUCKET_NAME = os.environ.get('BUCKET_NAME', 'project-64f58cb2-data-analysis')
 
 bq_client = bigquery.Client()
 storage_client = storage.Client()

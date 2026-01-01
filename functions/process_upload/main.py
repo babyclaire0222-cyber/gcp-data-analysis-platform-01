@@ -2,7 +2,7 @@ import os
 import json
 from google.cloud import bigquery, pubsub_v1
 
-PROJECT_ID = os.environ.get('GCP_PROJECT', 'data-analysis-webapp')
+PROJECT_ID = os.environ.get('GCP_PROJECT', 'project-64f58cb2-a1cc-4618-9a0')
 BIGQUERY_DATASET = os.environ.get('BIGQUERY_DATASET', 'analysis_dataset')
 PUBSUB_TOPIC_FOR_SQL_IMPORT = os.environ.get('PUBSUB_TOPIC_FOR_SQL_IMPORT', 'sql-import-topic')
 

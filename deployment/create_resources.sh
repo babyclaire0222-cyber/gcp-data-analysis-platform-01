@@ -1,6 +1,6 @@
 #!/bin/bash
-PROJECT_ID="data-analysis-webapp"
-BUCKET_NAME="data-analysis-upload-1000"
+PROJECT_ID="project-64f58cb2-a1cc-4618-9a0"
+BUCKET_NAME="project-64f58cb2-data-analysis"
 BQ_DATASET="analysis_dataset"
 PUBSUB_TOPIC="sql-import-topic"
 

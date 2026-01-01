@@ -3,8 +3,8 @@ import json
 import base64
 import subprocess
 
-PROJECT_ID = os.environ.get("GCP_PROJECT", "data-analysis-webapp")
-BUCKET_NAME = os.environ.get("BUCKET_NAME", "data-analysis-upload-1000")
+PROJECT_ID = os.environ.get("GCP_PROJECT", "project-64f58cb2-a1cc-4618-9a0")
+BUCKET_NAME = os.environ.get("BUCKET_NAME", "project-64f58cb2-data-analysis")
 INSTANCE_NAME = os.environ.get("CLOUDSQL_INSTANCE", "data-analysis-db")
 DATABASE_NAME = os.environ.get("CLOUDSQL_DATABASE", "data_analysis")
 REGION = os.environ.get("REGION", "asia-southeast1")
